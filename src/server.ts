@@ -2,6 +2,7 @@ import 'reflect-metadata';
 
 import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
+import './database';
 import 'express-async-errors';
 import routes from './routes';
 import uploadConfig from './config/upload';
